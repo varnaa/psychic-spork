@@ -1,7 +1,7 @@
 # Model
 
 #### 1. Books
-```json
+```
 {
 "global_id": {type: "string", required: true}
 "name": {type: "string", required: true},
@@ -29,7 +29,7 @@
 
 #### 2. Users
 
-```json
+```
 {
   "id":{type:"string", required: true},
   "first_name": {type:"string", required: true},
