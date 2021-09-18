@@ -54,6 +54,19 @@
 
 ```
 
+#### 3. Admin
 
+```
+{
+  "id":{type:"string", required: true},
+  "first_name": {type:"string", required: true},
+  "last_name": {type:"string", required: true},
+  "phone_number": {type: "integer", required: true},
+  "address": {type: "string", required: false},
+  "user_name":{type:"string", required: true},
+  "password": {type: "string", required: true},
+  "email": {type: "string", required: true},
+}
+```
 
 
